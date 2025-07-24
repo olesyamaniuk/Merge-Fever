@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flambé: Merge & Cook | Turn Ingredients into Culinary Magic!</title>
+    <link rel="icon" href="img/Image 500.png" />
+
+    <meta
+      name="description"
+      content="Get cooking in Flambé! Merge ingredients, master recipes, and build your dream kitchen. Tasty merge mechanics for foodies and puzzle lovers."
+    />
+    <meta
+      name="keywords"
+      content="merge game, cooking game, food merge, culinary puzzle, Flambé game, cooking simulator, merge and design kitchen"
+    />
+    <meta property="og:title" content="Flambé: Merge & Cook" />
+    <meta
+      property="og:description"
+      content="Merge your way to culinary greatness! Unlock recipes, design kitchens, and master the art of cooking in Flambé."
+    />
+    <meta property="og:url" content="https://mergedo.pro" />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div id="cookie-popup" class="y-w-cookie-popup">
+      <div class="y-w-cookie-popup-container">
+        <p class="y-w-cookie-popup-text-two">
+          We use cookies to improve your experience on our website. By browsing
+          this website, you agree to our use of cookies.
+        </p>
+        <div class="y-w-cookie-button-container">
+          <button id="accept-cookies" class="y-w-cookie-button">
+            Accept cookies
+          </button>
+          <button id="decline-cookies" class="y-w-cookie-button">
+            Decline Cookies
+          </button>
+        </div>
+      </div>
+    </div>
+    <header class="y-w-header">
+      <div class="y-w-header-background"></div>
+      <nav class="y-w-navigation">
+        <ul class="y-w-navigation-list">
+          <li class="y-w-navigation-item">
+            <a href="/" class="y-w-navigation-link">Home</a>
+          </li>
+          <li class="y-w-navigation-item">
+            <a href="/#gallery" class="y-w-navigation-link">Gallery</a>
+          </li>
+          <li class="y-w-navigation-item">
+            <a href="/#about" class="y-w-navigation-link">About the Game</a>
+          </li>
+          <li class="y-w-navigation-item">
+            <a href="/#why" class="y-w-navigation-link">Progression Map</a>
+          </li>
+          <li class="y-w-navigation-item">
+            <a href="/#uniqueness" class="y-w-navigation-link">Daily Events</a>
+          </li>
+
+          <li class="y-w-navigation-item">
+            <a href="/#characters" class="y-w-navigation-link">Characters</a>
+          </li>
+          <li class="y-w-navigation-item">
+            <a href="/#reviews" class="y-w-navigation-link">User Reviews</a>
+          </li>
+        </ul>
+
+        <div class="y-w-header-button-wrapper">
+          <a href="/" class="y-w-policy-terms-header-icon-menu">
+            <img href="/" class="y-w-title-img" />
+          </a>
+
+          <button type="button" class="y-w-header-icon-button" data-menu-button>
+            <img
+              class="y-w-header-icon y-w-header-icon-menu"
+              src="img/Icon.png"
+              style="width: 48px; height: 48px"
+              alt="menu "
+            />
+
+            <svg
+              class="y-w-header-icon y-w-header-icon-close"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.8 38L10 35.2L21.2 24L10 12.8L12.8 10L24 21.2L35.2 10L38 12.8L26.8 24L38 35.2L35.2 38L24 26.8L12.8 38Z"
+                fill="#582D16"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="y-w-home" id="home">
+        <div class="y-w-home-container">
+          <h1>
+            <img
+              class="y-w-home-title-img"
+              src="/img/home/Leonardo_Phoenix_10_A_3D_digital_illustration_of_a_gamestyle_t_0 1.png"
+              alt="Flambé: Merge & Cook "
+            />
+          </h1>
+          <a
+            class="y-w-home-link"
+            href="https://play.google.com/store/apps/details?id=com.cola.game&hl=en&gl=us"
+            target="_blank"
+          >
+            <img
+              class="y-w-home-img"
+              src="./img/home/play.png"
+              alt="google play"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="y-w-gallery" id="gallery">
+        <div class="y-w-gallery-container">
+          <h2 class="y-w-about-title">Gallery</h2>
+
+          <ul class="y-w-gallery-list">
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (1).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (2).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (3).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (4).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (5).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="y-w-gallery-item">
+              <img
+                class="y-w-gallery-image"
+                src="./img/gallery/1 (6).png"
+                alt="gallery image"
+              />
+            </li>
+          </ul>
+          <div class="y-w-gallery-button-container">
+            <button class="y-w-gallery-button y-w-gallery-list-left">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (1).png"
+                alt="left button"
+              />
+            </button>
+            <button class="y-w-gallery-button y-w-gallery-list-right">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (2).png"
+                alt="right button"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="y-w-about" id="about">
+        <div class="y-w-about-container">
+          <h2 class="y-w-about-title">About the Game</h2>
+          <div class="y-w-about-div">
+            <p class="y-w-about-text">
+              Step into the steamy world of
+              <span class="y-w-about-text-bold">Flambé</span>, where every merge
+              is a step toward culinary greatness! Match fresh ingredients,
+              unlock secret recipes, and cook your way from food truck to fine
+              dining. Watch your kitchen evolve as you serve sizzling dishes,
+              meet quirky guests, and rise through the ranks of the culinary
+              world. Will you become a humble hometown chef or a global
+              gastronomy icon?
+            </p>
+            <a
+              class="y-w-home-link"
+              href="https://play.google.com/store/apps/details?id=com.cola.game&hl=en&gl=us"
+              target="_blank"
+            >
+              <img
+                class="y-w-home-img"
+                src="./img/home/play.png"
+                alt="google play"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <article class="y-w-why" id="why">
+        <span style="display: none"
+          >Generated: 2025-07-23, Hash: y-w-qk-y-w-39fd7x</span
+        >
+
+        <div class="y-w-why-container">
+          <h2 class="y-w-about-title">Progression Map</h2>
+          <div class="y-w-why-list">
+            <div class="y-w-why-item">
+              <figure class="y-w-why-img">
+                <img class="y-w-why-img" src="img/why/2 (1).png" />
+              </figure>
+              <div class="y-w-why-text">
+                Start in a tiny street cart in Paris
+              </div>
+            </div>
+            <div class="y-w-why-item y-w-why-item-two">
+              <figure class="y-w-why-img">
+                <img class="y-w-why-img" src="img/why/2 (2).png" />
+              </figure>
+              <div class="y-w-why-text">Open a cozy bistro in Tokyo</div>
+            </div>
+            <div class="y-w-why-item">
+              <figure class="y-w-why-img">
+                <img class="y-w-why-img" src="img/why/2 (3).png" />
+              </figure>
+              <div class="y-w-why-text">
+                Launch a trendy rooftop restaurant in New York
+              </div>
+            </div>
+            <div class="y-w-why-item y-w-why-item-two">
+              <figure class="y-w-why-img">
+                <img class="y-w-why-img" src="img/why/2 (4).png" />
+              </figure>
+              <div class="y-w-why-text">Create their signature fusion menu</div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <section class="y-w-uniqueness" id="uniqueness">
+        <div class="y-w-uniqueness-container">
+          <h2 class="y-w-about-title">Daily Events</h2>
+          <div class="y-w-uniqueness-list">
+            <div class="y-w-uniqueness-item">
+              <img
+                class="y-w-uniqueness-img"
+                src="/img/uniqueness/1.png"
+                alt="fire"
+              />
+              <p class="y-w-uniqueness-text">
+                Daily time-limited merge missions
+              </p>
+            </div>
+            <div class="y-w-uniqueness-item">
+              <img
+                class="y-w-uniqueness-img"
+                src="/img/uniqueness/1.png"
+                alt="fire"
+              />
+              <p class="y-w-uniqueness-text">
+                Themed events: Taco Tuesday, Dessert Day
+              </p>
+            </div>
+            <div class="y-w-uniqueness-item">
+              <img
+                class="y-w-uniqueness-img"
+                src="/img/uniqueness/1.png"
+                alt="fire"
+              />
+              <p class="y-w-uniqueness-text">
+                Limited-time kitchen tools & ingredients
+              </p>
+            </div>
+            <div class="y-w-uniqueness-item">
+              <img
+                class="y-w-uniqueness-img"
+                src="/img/uniqueness/1.png"
+                alt="fire"
+              />
+              <p class="y-w-uniqueness-text">
+                Challenge friends for leaderboard rewards
+              </p>
+            </div>
+            <div class="y-w-uniqueness-item">
+              <img
+                class="y-w-uniqueness-img"
+                src="/img/uniqueness/1.png"
+                alt="fire"
+              />
+              <p class="y-w-uniqueness-text">
+                Earn stars for your chef’s cookbook!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="y-w-characters" id="characters">
+        <div class="y-w-characters-container">
+          <h2 class="y-w-about-title">Characters</h2>
+          <dl class="y-w-characters-list">
+            <div class="y-w-characters-item">
+              <img
+                class="y-w-characters-img"
+                src="/img/characters/Image (1).png"
+                alt="Chef Léo"
+              />
+              <dt class="y-w-characters-text-bold">Chef Léo</dt>
+              <dd class="y-w-characters-text">
+                Your charming mentor with a French accent and an undying love
+                for butter.
+              </dd>
+            </div>
+            <div class="y-w-characters-item">
+              <img
+                class="y-w-characters-img"
+                src="/img/characters/Image (2).png"
+                alt="Rika"
+              />
+              <dt class="y-w-characters-text-bold">Rika</dt>
+              <dd class="y-w-characters-text">
+                A bold mixologist and sauce expert, specializing in pan-Asian
+                flavors with a spicy twist.
+              </dd>
+            </div>
+            <div class="y-w-characters-item">
+              <img
+                class="y-w-characters-img"
+                src="/img/characters/Image (3).png"
+                alt="Jamie"
+              />
+              <dt class="y-w-characters-text-bold">Jamie</dt>
+              <dd class="y-w-characters-text">
+                Your clumsy but lovable kitchen intern.
+              </dd>
+            </div>
+            <div class="y-w-characters-item">
+              <img
+                class="y-w-characters-img"
+                src="/img/characters/Image (4).png"
+                alt="Grandma Jo"
+              />
+              <dt class="y-w-characters-text-bold">Grandma Jo</dt>
+              <dd class="y-w-characters-text">
+                The keeper of family recipes and centuries-old cooking secrets.
+              </dd>
+            </div>
+          </dl>
+          <div class="y-w-gallery-button-container">
+            <button class="y-w-gallery-button y-w-characters-list-left">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (1).png"
+                alt="left button"
+              />
+            </button>
+            <button class="y-w-gallery-button y-w-characters-list-right">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (2).png"
+                alt="right button"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="y-w-reviews" id="reviews">
+        <div class="y-w-reviews-container">
+          <h2 class="y-w-about-title">User Reviews</h2>
+          <ul class="y-w-reviews-list">
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (1).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “Finally a merge game that makes me hungry!”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (1).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">MuffinMogul:</p>
+              </div>
+            </li>
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (1).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “Love the daily events — it’s my coffee break ritual.”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (2).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">SteamySusan:</p>
+              </div>
+            </li>
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (2).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “The food art is next level. I screenshot my dishes”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (3).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">FusionFreak:</p>
+              </div>
+            </li>
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (1).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “Merging sushi? Count me in. Really funny game”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (4).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">RollnRice:</p>
+              </div>
+            </li>
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (1).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “My grandma now plays more than I do.”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (1).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">ChefTraineeBen:</p>
+              </div>
+            </li>
+            <li class="y-w-reviews-item">
+              <img
+                class="y-w-reviews-img"
+                src="/img/reviews/Rating (1).png"
+                alt="stars"
+                style="height: 16px"
+              />
+              <p class="y-w-reviews-text">
+                “Finally a merge game that makes me hungry! “It’s cozy, chaotic,
+                and delicious.” ”
+              </p>
+              <div class="y-w-reviews-item-top">
+                <img
+                  class="y-w-reviews-img"
+                  src="/img/reviews/3 (5).png"
+                  alt="avatar"
+                  style="width: 72px; height: 72px"
+                />
+                <p class="y-w-reviews-text-bold">BurntToast99:</p>
+              </div>
+            </li>
+          </ul>
+          <div class="y-w-gallery-button-container">
+            <button class="y-w-gallery-button y-w-reviews-list-left">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (1).png"
+                alt="left button"
+              />
+            </button>
+            <button class="y-w-gallery-button y-w-reviews-list-right">
+              <img
+                class="y-w-gallery-button-icon"
+                src="img/gallery/mingcute_arrows-left-line (2).png"
+                alt="right button"
+              />
+            </button>
+          </div>
+          <img class="y-w-footer-img" src="/img/1.png" />
+        </div>
+      </section>
+    </main>
+    <footer class="y-w-footer" style="margin: auto; background: #f4750e">
+      <div class="y-w-footer-container">
+        <div class="y-w-footer-wrapper">
+          <a class="y-w-footer-text" href="/policy.html">Privacy Policy</a>
+
+          <a class="y-w-footer-text" href="/terms.html"
+            >Terms and Conditions
+          </a>
+          <a class="y-w-footer-text" href="/cookies.html">Cookies Policy</a>
+        </div>
+        <p class="y-w-footer-copyright">
+          © 2025 mergedo.pro. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/jquery-loc-y-w-0.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
